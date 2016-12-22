@@ -45,10 +45,10 @@ BEGIN
   $mailprog          = '/usr/lib/sendmail -oi -t';
   $postmaster        = 'babs209@bridgetdbabel.com';
   @referers          = ();
-  @allow_mail_to     = qw(bridget@bridgetdbabel.com bridgetbabel@yahoo.com);
+  @allow_mail_to     = qw(bridgetb209@gmail.com bridgetbabel@yahoo.com);
   @recipients        = ();
   %recipient_alias   = (
-       'inquiry' => 'bridget@bridgetdbabel.com,bridgetbabel@yahoo.com',
+       'inquiry' => 'bridgetb209@gmail.com,bridgetbabel@yahoo.com',
     );
   @valid_ENV         = qw(REMOTE_HOST REMOTE_ADDR REMOTE_USER HTTP_USER_AGENT);
   $locale            = '';
@@ -62,7 +62,7 @@ BEGIN
   $address_style     = 0;
   $send_confirmation_mail = 0;
   $confirmation_text = <<'END_OF_CONFIRMATION';
-From: bridget@bridgetdbabel.com
+From: bridgetb209@gmail.com
 Subject: form submission
 
 Your inquiry has been received, thank you! I will be sure to reply personally within 24 hours. Until then, have a great day!
